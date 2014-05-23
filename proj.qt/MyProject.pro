@@ -41,13 +41,15 @@ SOURCES += main.cpp \
     ../Classes/AppDelegate.cpp \
     PurchaseEmulator.cpp \
     ../Classes/Scenes/MainMenu.cpp \
-    ../Classes/Scenes/SceneStyle.cpp
+    ../Classes/Scenes/SceneStyle.cpp \
+    ../Classes/Scenes/Task2.cpp
 
 HEADERS += \
     ../Classes/AppMacros.h \
     ../Classes/AppDelegate.h \
     main.h \
     ../Classes/Scenes/MainMenu.h \
-    ../Classes/Scenes/SceneStyle.h
+    ../Classes/Scenes/SceneStyle.h \
+    ../Classes/Scenes/Task2.h
 
 

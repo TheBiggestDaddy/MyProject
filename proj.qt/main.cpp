@@ -17,7 +17,6 @@ int CALLBACK WinMain(
     //Configure emulator
     ADDeviceEmulator* emulator = ADDeviceEmulator::getInstance();
 
-
     DeviceConfig custom(Device::Custom);
     custom.setDeviceName("Custom");
     custom.setScreenDencity(1.0);
@@ -25,12 +24,10 @@ int CALLBACK WinMain(
     custom.setScreenHeight(1200);
     emulator->setCustomDevice(custom);
 
-
     emulator->setFitTheScreen(true);
     emulator->setDevice(Device::IPad2);
     emulator->setLanguage("en");
     emulator->setOrientation(Orientation::Portrait);
-
 
     return emulator->run();
 }

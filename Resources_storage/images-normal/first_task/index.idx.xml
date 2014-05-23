@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directory>
+
+	<file>
+		<name>title_background.png</name>
+	</file>
+
+	<file>
+		<name>back_button.png</name>
+	</file>
+
+	<file>
+		<name>button_1.png</name>
+	</file>
+
+	<file>
+		<name>button_2.png</name>
+	</file>
+
+	<file>
+		<name>logo.png</name>
+	</file>
+
+	<file>
+		<name>settings-button.png</name>
+	</file>
+
+	<file>
+		<name>top_panel.png</name>
+	</file>
+
+	<file>
+		<name>top_panel_white.png</name>
+	</file>
+	
+	
+</directory>

@@ -1,14 +1,14 @@
-#ifndef MAINSCENE_H
-#define MAINSCENE_H
+#ifndef TASK2SCENE_H
+#define TASK2SCENE_H
 #include "cocos2d-A.h"
 #include "SceneStyle.h"
 
-class MainMenu: public SceneStyle
+class Task2: public SceneStyle
 {
 public:
-    MainMenu();
+    Task2();
     static cocos2d::CCScene* scene();
-    static MainMenu* create();
+    static Task2* create();
 
 private:
     cocos2d::CCSprite* _logo;
@@ -18,4 +18,4 @@ private:
     void onBackClick(){};
 };
 
-#endif // MAINSCENE_H
+#endif // TASK2NSCENE_H
